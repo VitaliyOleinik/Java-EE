@@ -1,0 +1,22 @@
+#main{
+
+    background-color: deeppink;
+    color: aqua;
+
+}
+
+#myDiv{
+
+    background-color: aquamarine;
+    width: 500px;
+    height: 200px;
+
+}
+
+.myDivision{
+    background-color: aqua;
+    width: 500px;
+    height: 200px;
+    color: darkgray;
+    font-family:Arial;
+}
