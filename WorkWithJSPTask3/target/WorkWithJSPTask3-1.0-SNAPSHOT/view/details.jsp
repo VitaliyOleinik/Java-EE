@@ -1,4 +1,4 @@
-<%--
+<%@ page import="entities.Cars" %><%--
   Created by IntelliJ IDEA.
   User: Mi Book
   Date: 2/28/2021
@@ -8,9 +8,16 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Details</title>
 </head>
 <body>
-
+    <%
+        Cars car = (Cars) request.getAttribute("vehicle");
+        if(car != null){
+            out.print("<h1>ID : " + car.getId() + "</h1>");
+            out.print("<h1>" + car.getName() + "</h1>");
+            out.print("<h2>Max Speed : " + car.getMaxSpeed() + " km/h</h2>");
+        }
+    %>
 </body>
 </html>
