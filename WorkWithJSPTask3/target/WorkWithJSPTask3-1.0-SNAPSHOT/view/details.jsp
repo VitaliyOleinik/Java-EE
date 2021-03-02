@@ -17,7 +17,16 @@
             out.print("<h1>ID : " + car.getId() + "</h1>");
             out.print("<h1>" + car.getName() + "</h1>");
             out.print("<h2>Max Speed : " + car.getMaxSpeed() + " km/h</h2>");
-        }
+
     %>
+
+    <form action="delete" method="post">
+        <input type="number" name="id" value="<% out.print(car.getId());%>">
+        <button>DELETE</button>
+    </form>
+    <%
+        } // close operation if
+    %>
+
 </body>
 </html>
