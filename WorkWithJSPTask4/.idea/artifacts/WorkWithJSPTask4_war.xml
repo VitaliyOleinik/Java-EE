@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WorkWithJSPTask4:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>WorkWithJSPTask4</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="WorkWithJSPTask4-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="WorkWithJSPTask4:war exploded" />
+    </root>
+  </artifact>
+</component>
